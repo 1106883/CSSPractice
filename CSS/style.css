@@ -26,6 +26,7 @@ img {
 }
 
 #mugContainer {
+    padding-top: 200px;
     height:300px;
     width:300px;
 }
