@@ -9,20 +9,18 @@ H1 {
 }
 
 
-ul {
+ul li {
     display: inline;
-}
-
-ul  {
     background-color: black;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px 4px 0 0;
+    font-family: serif;
 }
 
-ul {
-    font-family: serif;
+ul li a:hover {
+    background-color: orange;
 }
 
 A:Link {
