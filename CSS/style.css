@@ -23,7 +23,7 @@ ul li a:hover {
     background-color: orange;
 }
 
-A:Link {
+/*A:Link {
     color: darkblue;
 }
 
@@ -34,6 +34,7 @@ A:Visited {
 A:Hover {
     color: darkslateblue;
 }
+*/
 
 img {
     height: 250px;
