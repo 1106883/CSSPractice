@@ -8,9 +8,21 @@ H1 {
     background-color: lemonchiffon;
 }
 
+
+ul {
+    display: inline;
+}
+
+ul  {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
 ul {
     font-family: serif;
-    display: inline;
 }
 
 A:Link {
