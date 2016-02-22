@@ -1,0 +1,31 @@
+H1 {
+    color: royalblue;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+nav ul {
+    font-family: serif;
+}
+
+A:Link {
+    color: darkblue;
+}
+
+A:Visited {
+    color: blueviolet;
+}
+
+A:Hover {
+    color: darkslateblue;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+#mugContainer {
+    height:70px;
+    width:70px;
+}
