@@ -8,7 +8,7 @@ H1 {
     background-color: lemonchiffon;
 }
 
-nav ul {
+ul {
     font-family: serif;
     display: inline;
 }
@@ -31,7 +31,6 @@ img {
 }
 
 #mugContainer {
-    display: inline;
     padding-bottom: 220px;
     height:300px;
     width:300px;
