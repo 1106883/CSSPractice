@@ -10,6 +10,7 @@ H1 {
 
 nav ul {
     font-family: serif;
+    display: inline;
 }
 
 A:Link {
@@ -30,7 +31,12 @@ img {
 }
 
 #mugContainer {
+    display: inline;
     padding-bottom: 220px;
     height:300px;
     width:300px;
+}
+
+footer {
+
 }
