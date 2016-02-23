@@ -6,7 +6,7 @@ H1 {
 
 ul li{
     padding: 0;
-    display: inline;
+    display: inline-block;
     overflow: hidden;
     background-color: black;
     color: white;
@@ -17,15 +17,16 @@ ul li{
 }
 
 ul li a:hover {
-    background-color: lightblue;
+    background-color: royalblue;
     color: white;
 }
 
 
-/*A:Link {
-    color: darkblue;
+A:Link {
+    color: white;
 }
 
+/*
 A:Visited {
     color: blueviolet;
 }
