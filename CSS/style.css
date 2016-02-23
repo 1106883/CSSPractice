@@ -4,11 +4,8 @@ H1 {
     font-size: 50px;
 }
 
-ul {
+ul li{
     padding: 0;
-}
-
-ul li {
     display: inline;
     background-color: black;
     color: white;
@@ -20,6 +17,7 @@ ul li {
 
 ul li a:hover {
     background-color: orange;
+    color: white;
 }
 
 /*A:Link {
