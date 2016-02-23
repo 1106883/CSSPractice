@@ -33,26 +33,21 @@ img {
     width: 250px;
 }
 
-
 #mugContainer1 {
     height: 33%;
-    width: 32%;
+    width: 31%;
     margin-left: 1%;
 }
 
-#mugContainer1 p {
-    max-width: 30%;
-}
-
 #mugContainer2 {
-    width: 33%;
+    width: 31%;
     display: inline-block;
     margin-left: 1%;
 }
 
 #mugContainer3 {
     float: right;
-    width: 33%;
+    width: 31%;
     margin-left: 1%;
 }
 
