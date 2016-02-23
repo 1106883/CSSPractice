@@ -33,19 +33,19 @@ img {
     width: 250px;
 }
 
-#mugContainer1 {
+#col1 {
     height: 33%;
     width: 31%;
     margin-left: 1%;
 }
 
-#mugContainer2 {
+#col2 {
     width: 31%;
     display: inline-block;
     margin-left: 1%;
 }
 
-#mugContainer3 {
+#col3 {
     float: right;
     width: 31%;
     margin-left: 1%;
