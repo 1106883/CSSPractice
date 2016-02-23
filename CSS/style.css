@@ -34,11 +34,14 @@ img {
 }
 
 
-
 #mugContainer1 {
     height: 33%;
     width: 32%;
     margin-left: 1%;
+}
+
+#mugContainer1 p {
+    max-width: 30%;
 }
 
 #mugContainer2 {
