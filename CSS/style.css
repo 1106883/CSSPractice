@@ -9,8 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightgrey;
-    border: 1px solid #000000;
+    background-color: darkgray;
 }
 
 li {
@@ -27,6 +26,21 @@ li a {
 
 li a:hover {
     background-color: darkslateblue;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+#mugContainer {
+    padding-bottom: 220px;
+    height:300px;
+    width:300px;
+}
+
+footer {
+
 }
 
 /*ul li{
@@ -61,18 +75,3 @@ A:Hover {
     color: darkslateblue;
 }
 */
-
-img {
-    height: 250px;
-    width: 250px;
-}
-
-#mugContainer {
-    padding-bottom: 220px;
-    height:300px;
-    width:300px;
-}
-
-footer {
-
-}
