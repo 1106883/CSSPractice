@@ -39,6 +39,10 @@ img {
     width:300px;
 }
 
+#mugContainer:hover {
+    imgsrc: 'redmug2.png';
+}
+
 footer::after {
     content: "For your ugly mug";
     font-family: 'Pacifico', cursive;
