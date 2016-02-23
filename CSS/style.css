@@ -7,6 +7,7 @@ H1 {
 ul li{
     padding: 0;
     display: inline;
+    display: block;
     background-color: black;
     color: white;
     padding: 10px 20px;
@@ -16,9 +17,14 @@ ul li{
 }
 
 ul li a:hover {
-    background-color: orange;
+    background-color: royalblue;
     color: white;
 }
+
+.active{
+    background-color: lightblue;
+}
+
 
 /*A:Link {
     color: darkblue;
