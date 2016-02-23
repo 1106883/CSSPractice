@@ -39,8 +39,10 @@ img {
     width:300px;
 }
 
-footer {
-
+footer:: {
+    content: "For your ugly mug";
+    font-family: 'Pacifico', cursive;
+    color: blue;
 }
 
 /*ul li{
