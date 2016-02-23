@@ -40,6 +40,8 @@ img {
     width:300px;
 }
 
+/*
+
 #mugContainer1 {
     float: left;
     width: 33%;
@@ -60,7 +62,7 @@ img {
     margin-left: 5px;
     margin-right: 5px;
 }
-
+*/
 footer::after {
     content: "For your ugly mug";
     font-family: 'Pacifico', cursive;
