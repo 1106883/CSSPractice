@@ -33,14 +33,31 @@ img {
     width: 250px;
 }
 
-#mugContainer {
+#mugContainer1, #mugContainer2, #mugContainer3 {
     padding-bottom: 220px;
     height:300px;
     width:300px;
 }
 
-#mugContainer:hover {
-    imgsrc: 'redmug2.png';
+#mugContainer1 {
+    float: left;
+    width: 33%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mugContainer2 {
+    width: 33%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mugContainer3 {
+    float: right;
+    width: 33%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 footer::after {
