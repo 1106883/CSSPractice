@@ -46,6 +46,37 @@ footer::after {
     font-size: 15px;
 }
 
+/* Set the footer width */
+#footer {
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+/* Set the footer text color */
+#footer, #footer p {
+    color: #333333; /* dark gray */
+}
+
+/* Set the footer hyperlink to a different color */
+#footer a {
+    color: #FFFFFF; /* white */
+}
+
+/* Set the footer hyperlink hover to a different color */
+#footer a:hover {
+    color: #FFCC99; /* light orange */
+}
+
+/* Center the footer text and add a drop shadow */
+#footer p {
+    text-align: center;
+    color:#333333;
+    margin:25px 0 0;
+    text-shadow:0 2px 3px rgba(0, 0, 0, 0.5); /* This may not work with all browsers */
+}
+
 /*ul li{
     padding: 0;
     display: inline-block;
