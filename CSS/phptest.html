@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Politicians</title>
+</head>
+<body>
+<h1>Politicians</h1>
+
+<?php
+    $dsn = "mysql:host=csdm-webdev;dbname=db1106883_bank";
+$username = "1106883" ;
+$password = "1106883" ;
+$conn = new PDO( $dsn, $username, $password );
+try {   $conn = new PDO( $dsn, $username, $password );
+        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+} catch ( PDOException $e ) {
+echo "Connection failed: " . $e->getMessage();
+}
+$sql = "SELECT * FROM account";
+try {
+$results = $conn->query( $sql );
+if ($results->rowcount()==0){
+echo "no banks found <br />";
+} else {
+print "<table>\n";
+    echo "<th>first name</th><th>last name</th>";
+    foreach ($results as $row){
+    echo "<tr>";
+        echo "<td>".$row["firstname"]."</td>";
+        echo "<td>".$row["lastname"]."</td>";
+        echo "</tr>\n";
+    }
+    print "</table>\n";
+}
+} catch ( PDOException $e ) {
+echo "Query failed: " . $e->getMessage();
+}
+$conn = null;
+?>
+</body>
+</html>
+
