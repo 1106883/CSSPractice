@@ -46,6 +46,7 @@ footer::after {
     color: blue;
     font-size: 20px;
     text-shadow:0 2px 3px rgba(0, 0, 0, 0.5);
+    margin: 25px;
 }
 
 /* Set the footer width */
