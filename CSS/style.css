@@ -1,5 +1,5 @@
 H1 {
-    color: royalblue;
+    color: darkslateblue;
     font-family: verdana;
     font-size: 50px;
 }
@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: lightgrey;
     border: 1px solid #000000;
 }
 
