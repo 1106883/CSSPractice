@@ -47,7 +47,7 @@ footer::after {
 }
 
 /* Set the footer width */
-#footer {
+footer {
     margin: 0 auto;
     width: 1000px;
     max-width: 1000px;
@@ -55,22 +55,12 @@ footer::after {
 }
 
 /* Set the footer text color */
-#footer, #footer p {
+footer, footer p {
     color: #333333; /* dark gray */
 }
 
-/* Set the footer hyperlink to a different color */
-#footer a {
-    color: #FFFFFF; /* white */
-}
-
-/* Set the footer hyperlink hover to a different color */
-#footer a:hover {
-    color: #FFCC99; /* light orange */
-}
-
 /* Center the footer text and add a drop shadow */
-#footer p {
+footer p {
     text-align: center;
     color:#333333;
     margin:25px 0 0;
