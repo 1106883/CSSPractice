@@ -1,0 +1,89 @@
+#logo{
+    width: 320px;
+    height: 100px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Light', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#NavMenu{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#NavMenu li{
+    display: inline;
+    margin: 0;
+    padding: 2%;
+    text-align: center;
+}
+
+#banner{
+    width: 960px;
+    margin-bottom: 0;
+}
+
+#image1{
+    margin-bottom: 0;
+}
+
+#grid-container{
+    width: 960px;
+    margin-bottom: 10px;
+}
+
+#MainContent{
+    width: 960px;
+}
+
+#chrisina{
+    width: 240px;
+    float: left;
+}
+
+#image2{
+    padding-top: 0%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+#ContentHeading{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#News{
+    background-color: #DBC9DF;
+    color: white;
+    float: right;
+    mso-line-spacing: single;
+    margin-top: 0;
+}
+
+#Events{
+    background-color: #782A7E;
+    color: white;
+    float: right;
+    mso-line-spacing: single;
+    margin-top: 0;
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    width: 960px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.fixer{
+    clear: both;
+}
