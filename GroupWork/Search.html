@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="design.css"/>
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo">
+            <h1><strong><font size="20">GameSwap RGU</font></strong></h1>
+        </div>
+        <div id="search">
+            <Form Name ="search" Method ="POST" ACTION = "test.php">
+                <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="-2"><label for="username">Username :</label><input id="Username" name="username" type="text" size="-2"/>&nbsp;&nbsp;&nbsp;<label for="Password">Password :</label><input id="Password" name="password" type="password" size="-2"/></font><input class="form-submit" type="submit" value="Login" />
+                </div>
+            </form>
+        </div>
+        <div id="menu">
+            <ul>
+                <li class="first current_page_item"><a href="#">Homepage</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"><strong><font size="+3">Search</font></strong></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li class="last"><a href="#"></a></li>
+            </ul>
+            <br class="clearfix" />
+        </div>
+    </div>
+    <div id="page">
+        <div id="content">
+            <table  style="width:300px" >
+                <form  action="">
+                    <tr>
+                        <td><label for="title">Title :</label></td>
+                        <td><input id="title" name="title" type="text"/></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="platform">Platform :</label></td>
+                        <td><select>
+                            <option value="Select one">Select one</option>
+                            <option value="xbox 360">Xbox360</option>
+                            <option value="xbox one">XBOXONE</option>
+                            <option value="ps3">PS3</option>
+                            <option value="ps4">PS4</option>
+                        </select></td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="genre">Genre :</label></td>
+                        <td><input type="radio" name="genre" value="action" checked>Action<br>
+                            <input type="radio" name="genre" value="adventure">Adventure <br>
+                            <input type="radio" name="genre" value="strategy"> Strategy<br>
+                            <input type="radio" name="genre" value="rpg"> RPG<br>
+                            <input type="radio" name="genre" value="sports"> Sports<br>
+                            <input type="radio" name="genre" value="horror">Horror <br>
+                            <input type="radio" name="genre" value="simulation"> Simulation <br>
+                            <input type="radio" name="genre" value="fps"> FPS <br>
+                            <input type="radio" name="genre" value="hack n slash"> Hack n Slash <br>
+                            <input type="radio" name="genre" value="music"> Music <br>
+                            <input type="radio" name="genre" value="racing"> Racing <br>
+                            <input type="radio" name="genre" value="party"> Party <br>
+                            <input type="radio" name="genre" value="online"> Online <br>
+                            <input type="radio" name="genre" value="other"> Other</td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="year"> Year :</label></td>
+                        <td><select><option value="Select one">Select one</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                            <option value="2011">2011</option>
+                            <option value="2008">2012</option>
+                            <option value="2009">2013</option>
+                            <option value="2010">2014</option>
+                            <option value="2011">2015</option>
+                            <option value="2010">2016</option></select></td>
+
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="Age rating"> Age Rating :</label></td>
+                        <td><input type="checkbox" name="18+" value="18+" />18+
+                            <input type="checkbox" name="-18" value="-18" />-18 <br /></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit"  value="Search">
+
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+        <br class="clearfix" />
+    </div>
+    <div id="footer">
+        &copy; 2016. All rights reserved. Design by <strong>GROUP C</strong>.
+    </div>
+    </div>
+</body>
+
+
+</html>
