@@ -33,10 +33,11 @@ if (!isset($genre)) {
     $genre = '%';
 }
 
-/*$year = $_POST['year'];
+$year = $_POST['year'];
 if (!isset($year)) {
-    $year = '20%';
+    $year = '%';
 }
+/*
 
 $under18 = $_POST['under18'];
 if (isset($under18)) {
@@ -47,7 +48,7 @@ else {
 }
 */
 
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre' AND Year Like '$year'";
         try {
             $results = $conn->query($query);
 
