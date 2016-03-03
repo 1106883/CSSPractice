@@ -48,7 +48,7 @@ else {
 }
 */
 
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre' AND Year Like '$year'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre' AND Year = '$year'";
         try {
             $results = $conn->query($query);
 
