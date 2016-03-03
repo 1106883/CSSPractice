@@ -47,6 +47,7 @@ if (!isset($platform)) {
                     echo "<tr>";
                     echo "<td>" . $row["Title"] . "</td>";
                     echo "<td>" . $row["Year"] . "</td>";
+                    echo "<td>" . $row["Platform"] . "</td>";
                     echo "<td>" . $row["Genre"] . "</td>";
                     echo "</tr>\n";
                 }
