@@ -36,7 +36,7 @@ if (!isset($platform)) {
 
 $year = $_POST['year'];
 if (!isset($year)) {
-    $year = '%';
+    $year = '20%';
 }
 
 /*$under18 = $_POST['under18'];
