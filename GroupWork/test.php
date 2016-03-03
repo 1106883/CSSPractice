@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
 error_reporting(-1);
 
@@ -13,7 +15,7 @@ error_reporting(-1);
     }
 
     $query = "";
-    $title = $_POST['title'];
+    $title = 'Splatterhouse'; //$_POST['title'];
 
     //if (isset($title)) {//if keyword set goes here
         $query = "SELECT * FROM gameCollection WHERE Title LIKE '$title'";
@@ -42,5 +44,7 @@ error_reporting(-1);
 
 //}
 ?>
+</body>
+</html>
 
 
