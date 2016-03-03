@@ -1,6 +1,8 @@
 <html>
 <body>
 <?php
+header("Location: results.html");
+
 error_reporting(-1);
 
 //if(isset($_POST['submit'])) {
