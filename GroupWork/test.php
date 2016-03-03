@@ -6,7 +6,6 @@
 
 error_reporting(-1);
 
-//if(isset($_POST['submit'])) {
     $dsn = "mysql:host=eu-cdbr-azure-north-d.cloudapp.net;dbname=db1510646_gameshare";
     $username = "b52b6c6935c6d2";
     $password = "26ebeed0";
@@ -24,14 +23,14 @@ if (!isset($title)) {
     $title = '%';
 }
 
-    $genre = $_POST['genre'];
-if (!isset($genre)) {
-    $genre = '%';
-}
-
 $platform = $_POST['platform'];
 if (!isset($platform)) {
     $platform = '%';
+}
+
+    $genre = $_POST['genre'];
+if (!isset($genre)) {
+    $genre = '%';
 }
 
 /*$year = $_POST['year'];
@@ -48,8 +47,6 @@ else {
 }
 */
 
-
-    if (isset($title)) {//if keyword set goes here
         $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre'";
         try {
             $results = $conn->query($query);
@@ -74,9 +71,7 @@ else {
             echo "Query failed: " . $e->getMessage();
         }
         $conn = null;
-    }
 
-//}
 ?>
 </body>
 </html>
