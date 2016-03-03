@@ -13,7 +13,7 @@ if(isset($_POST['submit'])) {
     }
 
     $query = "";
-    $title = $_POST['#title'];
+    $title = $_POST['title'];
 
     if (isset($title)) {//if keyword set goes here
         $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%'";
@@ -23,7 +23,7 @@ if(isset($_POST['submit'])) {
             if ($results->rowcount() == 0) {
                 echo "no games found <br />";
             } else {
-                //generate table of politicians
+
                 print "<table>\n";
                 echo "<th>title</th><th>year</th>";
                 foreach ($results as $row) {
