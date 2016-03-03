@@ -13,10 +13,10 @@ if(isset($_POST['submit'])) {
     }
 
     $query = "";
-    $title = $_POST['search'];
+    $title = $_POST['#title'];
 
     if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$search%'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%'";
         try {
             $results = $conn->query($query);
 
