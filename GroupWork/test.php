@@ -18,7 +18,7 @@ if(isset($_POST['submit'])) {
     }
 
     $query = "";
-    $title = $_POST['title'];
+    $title = 'Xillia';
 
     //if (isset($title)) {//if keyword set goes here
         $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%'";
