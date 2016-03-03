@@ -18,13 +18,22 @@ error_reporting(-1);
     }
 
     $query = "";
+
     $title = $_POST['title'];
+if (!isset($title)) {
+    $title = '%';
+}
     $genre = $_POST['genre'];
 if (!isset($genre)) {
     $genre = '%';
 }
+
+$platform = $_POST['platform'];
+if (!isset($platform)) {
+    $platform = '%';
+}
     if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Genre Like '$genre'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform'AND Genre Like '$genre'";
         try {
             $results = $conn->query($query);
 
@@ -33,7 +42,7 @@ if (!isset($genre)) {
             } else {
 
                 print "<table>\n";
-                echo "<th>title</th><th>year</th><th>Genre</th>";
+                echo "<th>title</th><th>year</th><th>Genre</th><th>Platform</th>";
                 foreach ($results as $row) {
                     echo "<tr>";
                     echo "<td>" . $row["Title"] . "</td>";
