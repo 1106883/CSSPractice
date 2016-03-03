@@ -32,8 +32,22 @@ $platform = $_POST['platform'];
 if (!isset($platform)) {
     $platform = '%';
 }
+
+$year = $_POST['year'];
+if (!isset($year)) {
+    $year = '%';
+}
+
+$under18 = $_POST['under18'];
+if (isset($under18)) {
+    $under18 = '18';
+}
+else {
+    $under18 = '100';
+}
+
     if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform'AND Genre Like '$genre'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre' AND Year Like '$year' AND AgeRating < '$under18'";
         try {
             $results = $conn->query($query);
 
@@ -42,13 +56,13 @@ if (!isset($platform)) {
             } else {
 
                 print "<table>\n";
-                echo "<th>title</th><th>year</th><th>Genre</th><th>Platform</th>";
+                echo "<th>title</th><th>Platform</th><th>Genre</th><th>year</th>";
                 foreach ($results as $row) {
                     echo "<tr>";
                     echo "<td>" . $row["Title"] . "</td>";
-                    echo "<td>" . $row["Year"] . "</td>";
                     echo "<td>" . $row["Platform"] . "</td>";
                     echo "<td>" . $row["Genre"] . "</td>";
+                    echo "<td>" . $row["Year"] . "</td>";
                     echo "</tr>\n";
                 }
                 print "</table>\n";
