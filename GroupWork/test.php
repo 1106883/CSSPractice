@@ -2,8 +2,8 @@
 <body>
 <?php
 
-    //header("Location:results.html");
-    //exit();
+    header("Location:results.html");
+    exit();
 
 error_reporting(-1);
 
