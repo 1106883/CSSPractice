@@ -19,7 +19,7 @@ error_reporting(-1);
     }
 
     $query = "";
-    $title = $_POST['title'];
+    $title = 'Xillia'; //$_POST['title'];
 
     //if (isset($title)) {//if keyword set goes here
         $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%'";
