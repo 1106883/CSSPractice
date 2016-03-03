@@ -1,7 +1,7 @@
 <?php
 error_reporting(-1);
 
-if(isset($_POST['submit'])) {
+//if(isset($_POST['submit'])) {
     $dsn = "mysql:host=eu-cdbr-azure-north-d.cloudapp.net;dbname=db1510646_gameshare";
     $username = "b52b6c6935c6d2";
     $password = "26ebeed0";
@@ -13,10 +13,10 @@ if(isset($_POST['submit'])) {
     }
 
     $query = "";
-    $title = $_POST['title'];
+    //$title = $_POST['title'];
 
-    if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE %Far%";
+    //if (isset($title)) {//if keyword set goes here
+        $query = "SELECT * FROM gameCollection";
         try {
             $results = $conn->query($query);
 
@@ -38,9 +38,9 @@ if(isset($_POST['submit'])) {
             echo "Query failed: " . $e->getMessage();
         }
         $conn = null;
-    }
+    //}
 
-}
+//}
 ?>
 
 
