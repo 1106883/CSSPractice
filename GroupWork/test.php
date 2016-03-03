@@ -13,10 +13,10 @@ error_reporting(-1);
     }
 
     $query = "";
-    //$title = $_POST['title'];
+    $title = 'Splatterhouse'; //$_POST['title'];
 
     //if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE 'Klonoa'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '$title'";
         try {
             $results = $conn->query($query);
 
