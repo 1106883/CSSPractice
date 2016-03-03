@@ -49,7 +49,7 @@ else {
 
 */
     if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre'  AND Year Like '$year'";
         try {
             $results = $conn->query($query);
 
