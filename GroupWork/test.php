@@ -3,7 +3,6 @@
 <?php
 
     header("Location:results.html");
-    exit();
 
 error_reporting(-1);
 
