@@ -23,6 +23,7 @@ error_reporting(-1);
 if (!isset($title)) {
     $title = '%';
 }
+
     $genre = $_POST['genre'];
 if (!isset($genre)) {
     $genre = '%';
@@ -38,7 +39,7 @@ if (!isset($year)) {
     $year = '%';
 }
 
-$under18 = $_POST['under18'];
+/*$under18 = $_POST['under18'];
 if (isset($under18)) {
     $under18 = '18';
 }
@@ -46,6 +47,7 @@ else {
     $under18 = '100';
 }
 
+*/
     if (isset($title)) {//if keyword set goes here
         $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre'";
         try {
