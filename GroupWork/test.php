@@ -21,7 +21,7 @@ error_reporting(-1);
     $title = $_POST['title'];
     $genre = $_POST['genre'];
 if (!isset($genre)) {
-    $genre = '';
+    $genre = '0';
 }
     if (isset($title)) {//if keyword set goes here
         $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Genre Like '$genre'";
