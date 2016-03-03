@@ -1,6 +1,6 @@
 <?php
 error_reporting(-1);
-if(isset($_POST['submit'])) {
+
 
     $dsn = "mysql:host=eu-cdbr-azure-north-d.cloudapp.net;dbname=db1510646_gameshare";
     $username = "b52b6c6935c6d2";
@@ -38,7 +38,7 @@ if(isset($_POST['submit'])) {
             echo "Query failed: " . $e->getMessage();
         }
         $conn = null;
-    }
+
 }
 ?>
 
