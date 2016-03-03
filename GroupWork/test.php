@@ -19,9 +19,10 @@ error_reporting(-1);
 
     $query = "";
     $title = $_POST['title'];
+    $genre = $_POST['genre'];
 
     //if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Genre Like '$genre'";
         try {
             $results = $conn->query($query);
 
@@ -30,11 +31,12 @@ error_reporting(-1);
             } else {
 
                 print "<table>\n";
-                echo "<th>title</th><th>year</th>";
+                echo "<th>title</th><th>year</th><th>Genre</th>";
                 foreach ($results as $row) {
                     echo "<tr>";
                     echo "<td>" . $row["Title"] . "</td>";
                     echo "<td>" . $row["Year"] . "</td>";
+                    echo "<td>" . $row["Genre"] . "</td>";
                     echo "</tr>\n";
                 }
                 print "</table>\n";
