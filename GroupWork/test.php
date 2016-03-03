@@ -2,7 +2,7 @@
 <body>
 <?php
 
-    header("Location:results.html");
+    //header("Location:results.html");
 
 error_reporting(-1);
 
