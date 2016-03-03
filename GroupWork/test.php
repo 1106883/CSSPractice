@@ -16,7 +16,7 @@ error_reporting(-1);
     $title = $_POST['title'];
 
     if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE %'$title'%";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE %Far%";
         try {
             $results = $conn->query($query);
 
