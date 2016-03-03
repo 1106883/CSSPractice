@@ -20,8 +20,10 @@ error_reporting(-1);
     $query = "";
     $title = $_POST['title'];
     $genre = $_POST['genre'];
-
-    //if (isset($title)) {//if keyword set goes here
+if (!isset($genre)) {
+    $genre = '';
+}
+    if (isset($title)) {//if keyword set goes here
         $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Genre Like '$genre'";
         try {
             $results = $conn->query($query);
@@ -45,7 +47,7 @@ error_reporting(-1);
             echo "Query failed: " . $e->getMessage();
         }
         $conn = null;
-    //}
+    }
 
 //}
 ?>
