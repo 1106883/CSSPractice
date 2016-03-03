@@ -38,7 +38,7 @@ if (!isset($platform)) {
 if (!isset($year)) {
     $year = '20%';
 }
-*/
+
 $under18 = $_POST['under18'];
 if (isset($under18)) {
     $under18 = '18';
@@ -46,10 +46,11 @@ if (isset($under18)) {
 else {
     $under18 = '100';
 }
+*/
 
 
     if (isset($title)) {//if keyword set goes here
-        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre' AND 'Age Rating' BETWEEN 0 AND '$under18'";
+        $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '$genre'";
         try {
             $results = $conn->query($query);
 
