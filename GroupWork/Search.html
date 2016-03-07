@@ -11,7 +11,7 @@
             <h1><strong><font size="20">GameSwap RGU</font></strong></h1>
         </div>
         <div id="search">
-            <Form Name ="search">
+            <Form Name ="login">
                 <div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="-2"><label for="username">Username :</label><input id="Username" name="username" type="text" size="-2"/>&nbsp;&nbsp;&nbsp;<label for="Password">Password :</label><input id="Password" name="password" type="password" size="-2"/></font><input class="form-submit" type="submit" value="Login" />
                 </div>
@@ -33,7 +33,7 @@
     <div id="page">
         <div id="content">
             <table  style="width:300px" >
-                <form  Method ="post" action = "test.php">
+                <form  name="search" Method ="post" action = "test.php">
                     <tr>
                         <td><label for="title">Title :</label></td>
                         <td><input id="title" name="title" type="text"/></td>
@@ -55,12 +55,12 @@
                     </tr>
                     <tr>
                         <td><label for="genre">Genre :</label></td>
-                        <td><input type="radio" name="genre" value="action">Action<br>
-                            <input type="radio" name="genre" value="adventure">Adventure <br>
+                        <td><input type="radio" name="genre" value="action"> Action<br>
+                            <input type="radio" name="genre" value="adventure"> Adventure <br>
                             <input type="radio" name="genre" value="strategy"> Strategy<br>
                             <input type="radio" name="genre" value="rpg"> RPG<br>
                             <input type="radio" name="genre" value="sports"> Sports<br>
-                            <input type="radio" name="genre" value="horror">Horror <br>
+                            <input type="radio" name="genre" value="horror"> Horror <br>
                             <input type="radio" name="genre" value="simulation"> Simulation <br>
                             <input type="radio" name="genre" value="fps"> FPS <br>
                             <input type="radio" name="genre" value="hack n slash"> Hack n Slash <br>
