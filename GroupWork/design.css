@@ -1,5 +1,6 @@
+/* CSS is in alphabetical order based upon what the style is being applied to*/
 
-
+/*Styles applying directly to tags*/
 * {
 	padding: 0;
 	margin: 0;
@@ -54,6 +55,7 @@ ul {
 	margin-bottom: 1.5em;
 }
 
+/*Styles applying to specific IDs*/
 
 #content {
 	padding: 0;
@@ -100,6 +102,8 @@ ul {
 	font-size: 3.25em;
 }
 
+/*Style for the navigation menu*/
+
 #menu {
 	position: absolute;
 	line-height: 55px;
@@ -136,6 +140,8 @@ ul {
 	padding-left: 0;
 }
 
+/*End of style for navigation menu*/
+
 #label {
 	color: #808080;
 }
@@ -160,6 +166,44 @@ ul {
 #page strong {
 	color: #121212;
 }
+/*Style for the results table following a search*/
+
+#results {
+	border-collapse: collapse;
+	border-width: 0;
+	margin: auto;
+	display: block;
+}
+
+
+#results td{
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#results th {
+	background-color: lavender;
+	width: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#results th, #results td{
+	border-bottom: 1px solid #ddd;
+	border-spacing: 0;
+}
+
+#results tr:hover {
+	background-color: lavender;
+	border-color: lavender;
+	border-bottom-width: 0;
+}
+/*End of results table styling */
+
+/*Style for the advanced search page */
 
 #search {
 	line-height: 159px;
@@ -192,6 +236,8 @@ ul {
 	border-radius: 5px;
 }
 
+/*End of advanced search styling */
+
 #sidebar {
 	padding: 0;
 	width: 250px;
@@ -202,37 +248,4 @@ ul {
 	margin: 90px auto 0 auto;
 	width: 980px;
 	position: relative;
-}
-
-#results {
-	border-collapse: collapse;
-	border-width: 0;
-	margin: auto;
-	display: block;
-}
-
-#results th, #results td{
-	border-bottom: 1px solid #ddd;
-	border-spacing: 0;
-}
-
-#results td{
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	text-align:center;
-	vertical-align:middle;
-}
-
-#results th {
-	background-color: lavender;
-	width: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-#results tr:hover {
-	background-color: lavender;
-	border-color: lavender;
-	border-bottom-width: 0;
 }
