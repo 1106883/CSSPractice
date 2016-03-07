@@ -199,7 +199,7 @@ ul {
 	position: relative;
 }
 
-#results th, td{
+#results.th, #results.td{
 	border-bottom: 1px solid #ddd;
 }
 
