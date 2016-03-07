@@ -66,7 +66,7 @@
 
                 $genre = $_POST['genre'];
                 if (!isset($genre)) {
-                    $title = $_POST['qsearch'];
+                    $genre = $_POST['qsearch'];
                         if(!isset($genre)){
                             $genre = '%';
                         }
