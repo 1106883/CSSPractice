@@ -87,9 +87,7 @@
                             echo "<td>" . $row["Year"] . "</td>";
                             echo "<td>" . $row["AgeRating"] . "</td>";
                             echo "</tr>\n";
-                            echo "<tr>";
                             echo "<td>" . $row["Description"] . "</td>";
-                            echo "</tr>\n";
                         }
                         print "</table>\n";
                     }
