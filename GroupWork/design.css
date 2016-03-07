@@ -205,13 +205,12 @@ ul {
 }
 
 #results {
-	width: 90%;
 	alignment: center;
 }
 
 #results th {
 	background-color: lavender;
-	width: 20%;
+	width: 15%;
 }
 
 #results tr:hover {
