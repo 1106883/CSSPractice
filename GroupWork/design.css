@@ -170,7 +170,7 @@ ul {
 #qsgo {
 	display: inline-block;
 	position: relative;
-	right: 200px;
+	right: -200px;
 	float: right;
 	margin-top: 20px;
 	margin-left: 10px;
