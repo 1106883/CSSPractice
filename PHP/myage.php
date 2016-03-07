@@ -11,11 +11,11 @@ $canbuy = "I can buy";
 echo "I am " + $myage;
 
 if($myage >= 16) {
-    $canbuy += "specs";
+    echo "I can buy specs";
     if($myage >= 18) {
-        $canbuy += ", mugs";
+        echo "I can buy mugs";
         if($myage >= 21) {
-            $canbuy += "and sausage rolls";
+            echo "I can buy sausage rolls";
         }
     }
 }
