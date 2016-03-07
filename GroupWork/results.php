@@ -53,7 +53,10 @@
 
                 $title = $_POST['title'];
                 if (!isset($title)) {
-                    $title = '%';
+                    $title = $_POST['qsearch'];
+                        if (!isset($title)) {
+                            $title = '%';
+                        }
                 }
 
                 $platform = $_POST['platform'];
