@@ -201,9 +201,8 @@ ul {
 
 #results th, #results td{
 	border-width: 0;
+	border-collapse: collapse;
 	border-bottom: 1px solid #ddd;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 #results {
@@ -213,6 +212,8 @@ ul {
 #results th {
 	background-color: lavender;
 	width: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #results tr:hover {
