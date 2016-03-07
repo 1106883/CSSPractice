@@ -170,6 +170,7 @@ ul {
 #qsearch{
 	float: right;
 	margin-top: 20px;
+	width: 70px;
 }
 
 /*Style for the results table following a search*/
