@@ -18,6 +18,6 @@ for ($i = 1; $i < 30; $i++)
         echo " sausage rolls";
     }
 
-    echo "\n";
+    echo "<br>";
 }
 ?>
