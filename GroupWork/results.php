@@ -19,10 +19,10 @@
         </div>
         <div id="menu">
             <ul>
-                <li class="first current_page_item"><a href="#">Homepage</a></li>
+                <li><a href="#">Homepage</a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
-                <li><a href="search.html"><strong><font size="+3">Search</font></strong></a></li>
+                <li><a href="search.html">Search</a></li>
                 <li class="last"><a href="#"></a></li>
             </ul>
             <br class="clearfix" />

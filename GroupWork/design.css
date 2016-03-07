@@ -131,6 +131,10 @@ ul {
 	padding-left: 0;
 }
 
+#active {
+	background-color: black;
+}
+
 #label {
 	color: #808080;
 }
