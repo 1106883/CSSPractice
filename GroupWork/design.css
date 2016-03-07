@@ -202,8 +202,7 @@ ul {
 #results {
 	border-collapse: collapse;
 	border-width: 0;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	display: block;
 }
 
