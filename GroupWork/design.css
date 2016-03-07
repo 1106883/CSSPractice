@@ -174,17 +174,6 @@ ul {
 	float: right;
 	margin-top: 20px;
 	margin-left: 10px;
-	padding-left: 4px;
-	padding-right: 4px;
-}
-
-#qsearch {
-	display: inline-block;
-	position: relative;
-	left: -40px;
-	float: right;
-	margin-top: 20px;
-	margin-right: 20px;
 	border-top: solid 1px;
 	border-bottom: solid 1px;
 	font-family: Oswald, sans-serif;
@@ -194,6 +183,15 @@ ul {
 	text-shadow: 0px 1px 1px #590200;
 	text-transform: lowercase;
 	border-radius: 5px;
+}
+
+#qsearch {
+	display: inline-block;
+	position: relative;
+	left: -40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 
 /*Style for the results table following a search*/
