@@ -21,6 +21,10 @@ body {
 	line-height: 1.75em;
 }
 
+body #results{
+	margin: auto;
+}
+
 body,input {
 	font-family: Tahoma, sans-serif;
 }
