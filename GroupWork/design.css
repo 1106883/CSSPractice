@@ -213,6 +213,14 @@ ul {
 	width: 15%;
 }
 
+#age {
+	width: 10%;
+}
+
+#desc {
+	width: 25%;
+}
+
 #results tr:hover {
 	background-color: lavender;
 	border-color: lavender;
