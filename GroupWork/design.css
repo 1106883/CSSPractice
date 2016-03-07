@@ -204,6 +204,11 @@ ul {
 	border-width: 0;
 }
 
+table.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
 #results th, #results td{
 	border-bottom: 1px solid #ddd;
 	border-spacing: 0;
