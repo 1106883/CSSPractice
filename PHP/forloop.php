@@ -5,7 +5,7 @@
  * Date: 07/03/2016
  * Time: 10:04
  */
-for ($i = 1; $i < 30; $i++)
+for ($i = 1; $i <= 30; $i++)
 {
     echo "On the $i you can buy ";
     if (($i % 2) == 0){
