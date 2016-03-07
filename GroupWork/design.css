@@ -173,7 +173,6 @@ ul {
 	right: -200px;
 	float: right;
 	margin-top: 20px;
-	margin-left: 10px;
 	border-top: solid 1px;
 	border-bottom: solid 1px;
 	font-family: Oswald, sans-serif;
@@ -191,7 +190,6 @@ ul {
 	left: -40px;
 	float: right;
 	margin-top: 20px;
-	margin-right: 20px;
 }
 
 /*Style for the results table following a search*/
