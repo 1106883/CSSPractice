@@ -131,9 +131,13 @@ ul {
 	padding-left: 0;
 }
 
+#label {
+	color: #333333;
+}
+
 #page {
 	width: 910px;
-	color: #D0D0D0;
+	color: #333333;
 	position: relative;
 	border-top: solid 1px #FFFFFF;
 	padding: 45px 35px 15px 35px;
