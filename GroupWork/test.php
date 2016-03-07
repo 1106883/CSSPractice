@@ -19,11 +19,10 @@
         </div>
         <div id="menu">
             <ul>
-                <li class="first current_page_item"><a href="search.html">Homepage</a></li>
+                <li class="first current_page_item"><a href="#">Homepage</a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
-                <li><a href="#"><strong><font size="+3">Search</font></strong></a></li>
-                <li><form><input id="qsearch" name="qsearch" type="text"/></form></li>
+                <li><a href="search.html"><strong><font size="+3">Search</font></strong></a></li>
                 <li class="last"><a href="#"></a></li>
             </ul>
             <br class="clearfix" />
@@ -86,6 +85,10 @@
                             echo "<td>" . $row["Platform"] . "</td>";
                             echo "<td>" . $row["Genre"] . "</td>";
                             echo "<td>" . $row["Year"] . "</td>";
+                            echo "<td>" . $row["AgeRating"] . "</td>";
+                            echo "</tr>\n";
+                            echo "<tr>";
+                            echo "<td>" . $row["Description"] . "</td>";
                             echo "</tr>\n";
                         }
                         print "</table>\n";
