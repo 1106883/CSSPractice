@@ -11,4 +11,16 @@ $provisionedActivity = array("specs", "drugs", "rock n roll");
 foreach($provisionedActivity as $x) {
     print "<p>$x</p>";
 }
+
+$provisionedActivity[1] = "hugs";
+
+foreach($provisionedActivity as $x) {
+    print "<p>$x</p>";
+}
+
+unset($provisionedActivity[2]);
+
+foreach($provisionedActivity as $x) {
+    print "<p>$x</p>";
+}
 ?>
