@@ -8,7 +8,7 @@
 <div id="wrapper">
     <div id="header">
         <div id="logo">
-            <h1><strong><font size="20">GameSwap RGU</font></strong></h1>
+            <h1><strong><font size="20">GameShare RGU</font></strong></h1>
         </div>
         <div id="search">
             <Form Name ="login">
@@ -78,7 +78,7 @@
                     } else {
 
                         print "<table>\n";
-                        echo "<th>title</th><th>Platform</th><th>Genre</th><th>year</th>";
+                        echo "<th>Title</th><th>Platform</th><th>Genre</th><th>Year</th>";
                         foreach ($results as $row) {
                             echo "<tr>";
                             echo "<td>" . $row["Title"] . "</td>";
