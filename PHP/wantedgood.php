@@ -11,9 +11,9 @@ switch($wantedgood){
     case "mugs":
         echo "You must be 16 to buy mugs";
     case "specs":
-        echo "You must be 18 to buy mugs";
+        echo "You must be 18 to buy specs";
     case "sausage rolls":
-        echo "You must be 16 to buy mugs";
+        echo "You must be 16 to buy sausage roll";
     default:
         echo "You're a sucky suck";
 }
