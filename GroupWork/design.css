@@ -201,9 +201,11 @@ ul {
 
 #results th, #results td{
 	border-width: 0;
-	padding: 0;
-	margin: 0;
 	border-bottom: 1px solid #ddd;
+}
+
+#results {
+	width: 90%;
 }
 
 #results th {
