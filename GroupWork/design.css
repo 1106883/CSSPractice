@@ -202,11 +202,12 @@ ul {
 #results th, #results td{
 	border-width: 0;
 	border-bottom: 1px solid #ddd;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #results {
-	padding-left: 10px;
-	padding-right: 10px;
+
 }
 
 #results th {
