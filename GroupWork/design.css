@@ -206,6 +206,7 @@ ul {
 
 #results {
 	width: 90%;
+	alignment: center;
 }
 
 #results th {
