@@ -168,6 +168,7 @@ ul {
 }
 
 #qsgo {
+	display: inline-block;
 	float: right;
 	margin-top: 20px;
 	margin-left: 10px;
@@ -176,6 +177,9 @@ ul {
 }
 
 #qsearch {
+	display: inline-block;
+	position: relative;
+	left: -40px;
 	float: right;
 	margin-top: 20px;
 	margin-right: 20px;
