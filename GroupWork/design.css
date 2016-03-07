@@ -205,4 +205,5 @@ ul {
 
 #results tr:hover {
 	background-color: lavender;
+	border-color: lavender;
 }
