@@ -166,6 +166,11 @@ ul {
 #page strong {
 	color: #121212;
 }
+
+#qsearch{
+	float: right;
+}
+
 /*Style for the results table following a search*/
 
 #results {
@@ -174,7 +179,6 @@ ul {
 	margin: auto;
 	display: block;
 }
-
 
 #results td{
 	padding-left: 5px;
