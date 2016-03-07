@@ -206,6 +206,10 @@ ul {
 	border-bottom: 1px solid #ddd;
 }
 
+#results th {
+	background-color: lavender;
+}
+
 #results tr:hover {
 	background-color: lavender;
 	border-color: lavender;
