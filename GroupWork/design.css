@@ -167,20 +167,20 @@ ul {
 	color: #121212;
 }
 
-#qsearch {
-	float: right;
-	margin-top: 20px;
-	width: 200px;
-}
-
 #qsgo {
 	float: right;
 	margin-top: 20px;
-	margin-right: 20px;
+	margin-left: 10px;
 	padding-left: 4px;
 	padding-right: 4px;
 }
 
+#qsearch {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 200px;
+}
 
 /*Style for the results table following a search*/
 
