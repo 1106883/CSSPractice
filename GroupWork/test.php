@@ -78,14 +78,14 @@
                     } else {
 
                         print "<table id='results'>\n";
-                        echo "<th>Title</th><th>Platform</th><th>Genre</th><th>Year</th><th>Description</th>";
+                        echo "<th>Title</th><th>Platform</th><th>Genre</th><th>Year</th><th>Age Rating</th><th>Description</th>";
                         foreach ($results as $row) {
                             echo "<tr>";
                             echo "<td>" . $row["Title"] . "</td>";
                             echo "<td>" . $row["Platform"] . "</td>";
                             echo "<td>" . $row["Genre"] . "</td>";
                             echo "<td>" . $row["Year"] . "</td>";
-                            echo "<td>" . $row["AgeRating"] . "</td>";
+                            echo "<td>" . $row["Age Rating"] . "</td>";
                             echo "<td>" . $row["Description"] . "</td>";
                         }
                         print "</table>\n";
