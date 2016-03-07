@@ -167,7 +167,12 @@ ul {
 	color: #121212;
 }
 
-#qsearch{
+#qsgo {
+	float: right;
+	margin-top: 20px;
+}
+
+#qsearch {
 	float: right;
 	margin-top: 20px;
 	width: 200px;
