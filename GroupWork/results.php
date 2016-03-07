@@ -19,7 +19,7 @@
         </div>
         <div id="menu">
             <ul>
-                <form action="results.php">
+                <form action="results.php" method="post">
                     <li><a href="#">Homepage</a></li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
