@@ -146,10 +146,6 @@ ul {
 	color: #808080;
 }
 
-#login input{
-	border-radius: 5px;
-}
-
 #page {
 	width: 910px;
 	color: #333333;
@@ -169,6 +165,10 @@ ul {
 
 #page strong {
 	color: #121212;
+}
+
+#Password {
+	border-radius: 5px;
 }
 
 #qsgo {
@@ -271,6 +271,10 @@ ul {
 	padding: 0;
 	width: 250px;
 	margin: 0 0 0 660px;
+}
+
+#Username {
+	border-radius: 5px;
 }
 
 #wrapper {
