@@ -9,13 +9,15 @@ for ($i = 1; $i < 30; $i++)
 {
     echo "On the $i you can buy ";
     if (($i % 2) == 0){
-        echo "specs";
+        echo " specs";
     }
     if (($i % 3) == 0){
-        echo "mugs";
+        echo " mugs";
     }
     if (($i % 4) == 0){
-        echo "sausage rolls";
+        echo " sausage rolls";
     }
+
+    echo "\n";
 }
 ?>
