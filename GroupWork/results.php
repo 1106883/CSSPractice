@@ -24,8 +24,7 @@
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
                     <li><a href="search.html">Search</a></li>
-                    <li><input id="qsearch" name="qsearch" type="text" placeholder="I want to borrow..."/></li>
-                    <li><input type="submit"  value="qsearch"></li>
+                    <li><input id="qsearch" name="qsearch" type="text" placeholder="I want to borrow..."/><input id="qsgo" type="submit"  value="Go"></li>
                 </ul>
             </form>
             <br class="clearfix" />
