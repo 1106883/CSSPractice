@@ -19,4 +19,7 @@ if($myage >= 16) {
         }
     }
 }
+
+echo $canbuy;
+
 ?>
