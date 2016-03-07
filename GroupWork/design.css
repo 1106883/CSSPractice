@@ -203,6 +203,7 @@ ul {
 	border-width: 0;
 	border-collapse: collapse;
 	border-bottom: 1px solid #ddd;
+	margin: 0 0 0 0;
 }
 
 #results td{
