@@ -86,7 +86,6 @@
                             echo "<td>" . $row["Genre"] . "</td>";
                             echo "<td>" . $row["Year"] . "</td>";
                             echo "<td>" . $row["AgeRating"] . "</td>";
-                            echo "</tr>\n";
                             echo "<td>" . $row["Description"] . "</td>";
                         }
                         print "</table>\n";
