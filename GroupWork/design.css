@@ -198,3 +198,11 @@ ul {
 	width: 980px;
 	position: relative;
 }
+
+#results th, td{
+	border-bottom: 1px solid #ddd;
+}
+
+#results:hover {
+	background-color: lavender;
+}

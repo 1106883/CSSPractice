@@ -77,7 +77,7 @@
                         echo "no games found <br />";
                     } else {
 
-                        print "<table>\n";
+                        print "<table id='results'>\n";
                         echo "<th>Title</th><th>Platform</th><th>Genre</th><th>Year</th>";
                         foreach ($results as $row) {
                             echo "<tr>";
