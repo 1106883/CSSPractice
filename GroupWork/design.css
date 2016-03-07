@@ -199,9 +199,12 @@ ul {
 	position: relative;
 }
 
-#results th, #results td{
-	border-width: 0;
+#results {
 	border-collapse: collapse;
+	border-width: 0;
+}
+
+#results th, #results td{
 	border-bottom: 1px solid #ddd;
 	border-spacing: 0;
 }
