@@ -185,7 +185,15 @@ ul {
 	float: right;
 	margin-top: 20px;
 	margin-right: 20px;
-	width: 200px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	font-family: Oswald, sans-serif;
+	color: #FFFFFF;
+	padding: 2px 8px 3px 8px;
+	background: lavender;
+	text-shadow: 0px 1px 1px #590200;
+	text-transform: lowercase;
+	border-radius: 5px;
 }
 
 /*Style for the results table following a search*/
