@@ -203,6 +203,6 @@ ul {
 	border-bottom: 1px solid #ddd;
 }
 
-#results:hover {
+#results tr:hover {
 	background-color: lavender;
 }

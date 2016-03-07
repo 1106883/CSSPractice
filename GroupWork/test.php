@@ -78,7 +78,7 @@
                     } else {
 
                         print "<table id='results'>\n";
-                        echo "<th>Title</th><th>Platform</th><th>Genre</th><th>Year</th>";
+                        echo "<th>Title</th><th>Platform</th><th>Genre</th><th>Year</th><th>Description</th>";
                         foreach ($results as $row) {
                             echo "<tr>";
                             echo "<td>" . $row["Title"] . "</td>";
