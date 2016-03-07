@@ -205,8 +205,8 @@ ul {
 	border-bottom: 1px solid #ddd;
 }
 
-#results {
-
+#results td{
+	padding-left: 5px;
 }
 
 #results th {
