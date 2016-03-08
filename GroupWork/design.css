@@ -201,7 +201,8 @@ ul {
 	font-size: 10px;
 	position: absolute;
 	float: right;
-	top: 40px;
+	right: 10px;
+	top: 30px;
 }
 
 /*Style for the results table following a search*/
