@@ -59,27 +59,14 @@
                 $tuno = $_POST['stuno'];
 
                 $email = $_POST['email'];
-                $Cemail = $_POST['Cemail'];
-                if ($email = $Cemail) {
-                    $email = $_POST['email'];
-                }
-                else $email = "";
 
                 $password = $_POST['epassword'];
-                $Cpassword = $_POST['Cpassword'];
-                if ($password = $Cpassword) {
-                    $password = $_POST['password'];
-                }
-                else $password = "";
 
-                $query = "INSERT INTO members(firstName, lastName, email, studentID, password)
-                          VALUES ('$fname', '$sname', '$email', '$stuno', '$password')";
 
-                if ($conn->query($sql) === TRUE) {
-                    echo "New record created successfully";
-                } else {
-                    echo "Error: " . $sql . "<br>" . $conn->error;
-                }
+                $query = "INSERT INTO members(firstName, lastName, email, studentID, password) VALUES ('$fname', '$sname', '$email', '$stuno', '$password')";
+
+                $conn->exec($query);
+                echo "New record created successfully";
             ?>
         </div>
         <br class="clearfix" />
