@@ -196,6 +196,11 @@ ul {
 	border-radius: 5px;
 }
 
+#register {
+	color: white;
+	font-size: 10px;
+}
+
 /*Style for the results table following a search*/
 
 #results {
