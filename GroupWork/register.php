@@ -60,7 +60,7 @@
 
                 $email = $_POST['email'];
 
-                $password = $_POST['epassword'];
+                $password = $_POST['Epassword'];
 
 
                 $query = "INSERT INTO members(firstName, lastName, email, studentID, password, userRating) VALUES ('$fname', '$sname', '$email', '$stuno', '$password', 1)";
