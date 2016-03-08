@@ -29,8 +29,8 @@ do {
         default:
             echo "You're a sucky suck";
             break;
-            echo "On the $i $good are available";
     }
+    echo "On the $i $good are available";
 }
 while($mugstock > 0 && $specstock > 0 && $srollsstock > 0 and $i < 31);
 
