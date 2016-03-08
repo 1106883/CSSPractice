@@ -56,7 +56,7 @@
 
                 $sname = $_POST['Sname'];
 
-                $tuno = $_POST['stuno'];
+                $stuno = $_POST['stuno'];
 
                 $email = $_POST['email'];
 
