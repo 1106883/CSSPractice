@@ -67,6 +67,8 @@
 
                 $conn->exec($query);
                 echo "New record created successfully";
+
+                $conn = null;
             ?>
         </div>
         <br class="clearfix" />
