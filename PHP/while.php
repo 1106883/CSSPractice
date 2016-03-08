@@ -32,6 +32,6 @@ do {
             echo "On the $i $good are available";
     }
 }
-while($mugstock > 0 && $specstock > 0 && $srollsstock > 0);
+while($mugstock > 0 && $specstock > 0 && $srollsstock > 0 and $i < 31);
 
 ?>
