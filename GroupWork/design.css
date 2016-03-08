@@ -199,6 +199,8 @@ ul {
 #register {
 	color: white;
 	font-size: 10px;
+	position: relative;
+	top: 50px;
 }
 
 /*Style for the results table following a search*/
