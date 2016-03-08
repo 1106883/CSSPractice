@@ -199,7 +199,8 @@ ul {
 #register {
 	color: white;
 	font-size: 10px;
-	position: relative;
+	position: absolute;
+	float: right;
 }
 
 /*Style for the results table following a search*/
