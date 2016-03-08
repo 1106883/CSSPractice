@@ -63,7 +63,7 @@
                 $password = $_POST['Epassword'];
 
 
-                $query = "INSERT INTO members (firstName, lastName, email, studentID, password, userRating) VALUES ('Kyle', 'Martin', 'kmartps3@email.com', 1106883, 'Kyle', 1)";
+                $query = "INSERT INTO gamecollection (GameID, Title, Year, Genre, Platform, AgeRating, Description) VALUES (46, 'Test', 2010, 'RPG', 'PS4', 18, 'gfergwgrewtgwge')";
 
                 $conn->exec($query);
                 echo "New record created successfully";
