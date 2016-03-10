@@ -75,7 +75,7 @@
                     $year = '%';
                 }
 
-                $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '%$genre%' AND Year Like '%$year%' ORDER BY Title [Desc]";
+                $query = "SELECT * FROM gameCollection WHERE Title LIKE '%$title%' AND Platform Like '$platform' AND Genre Like '%$genre%' AND Year Like '%$year%' ORDER BY Title";
                 try {
                     $results = $conn->query($query);
 
