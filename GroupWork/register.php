@@ -36,8 +36,6 @@
 
                 <?php
 
-                //header("Location:results.html");
-
                 error_reporting(-1);
 
                 $dsn = "mysql:host=eu-cdbr-azure-north-d.cloudapp.net;dbname=db1510646_gameshare";
@@ -46,11 +44,8 @@
                 try {
                     $conn = new PDO($dsn, $username, $password);
                     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                } catch (PDOException $e) {
-                    echo "Connection failed: " . $e->getMessage();
-                }
 
-                $query = "";
+                $sql = "";
 
                 $fname = $_POST['Fname'];
 
@@ -63,10 +58,14 @@
                 $password = $_POST['Epassword'];
 
 
-                $query = "INSERT INTO gamecollection (GameID, Title, Year, Genre, Platform, AgeRating, Description) VALUES (46, 'Test', 2010, 'RPG', 'PS4', 18, 'gfergwgrewtgwge')";
+                $sql = "INSERT INTO members (firstName, lastName, email, studentID, password) VALUES ('$fname', '$sname', '$email', '$stuno', '$password')";
 
-                $conn->exec($query);
+                $conn->exec($sql);
                 echo "New record created successfully";
+
+                } catch (PDOException $e) {
+                    echo "Connection failed: " . $e->getMessage();
+                }
 
                 $conn = null;
             ?>
