@@ -13,7 +13,7 @@
         <div id="search">
             <Form Name ="login">
                 <div id="logintext">
-                    <font size="-2"><label for="username">Username :</label><input id="Username" name="username" type="text" size="-2"/><label for="Password">Password :</label><input id="Password" name="password" type="password" size="-2"/></font><input class="form-submit" type="submit" value="Login" />
+                    <font size="-2"><label for="username">Username :</label><input id="username" name="username" type="text" size="-2"/><label for="Password">Password :</label><input id="password" name="password" type="password" size="-2"/></font><input class="form-submit" type="submit" value="Login" />
                     <a id="register" href="Register.html">Not a member? Register.</a>
                 </div>
             </form>

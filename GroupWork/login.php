@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <html>
 
 <head>
@@ -34,40 +35,40 @@
     <div id="page">
         <div id="content">
 
-                <?php
+            <?php
 
-                error_reporting(-1);
+            error_reporting(-1);
 
-                $dsn = "mysql:host=eu-cdbr-azure-north-d.cloudapp.net;dbname=db1510646_gameshare";
-                $username = "b52b6c6935c6d2";
-                $password = "26ebeed0";
+            $dsn = "mysql:host=eu-cdbr-azure-north-d.cloudapp.net;dbname=db1510646_gameshare";
+            $username = "b52b6c6935c6d2";
+            $password = "26ebeed0";
+            try {
+                $conn = new PDO($dsn, $username, $password);
+                $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+                $stuno = $_POST['username'];
+
+                $password = $_POST['password'];
+
+
+                $sql = "SELECT * FROM members WHERE studentID = '$stuno' AND password = '$password'";
+
                 try {
-                    $conn = new PDO($dsn, $username, $password);
-                    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                    $results = $conn->query($query);
 
-                $sql = "";
-
-                $fname = $_POST['Fname'];
-
-                $sname = $_POST['Sname'];
-
-                $stuno = $_POST['stuno'];
-
-                $email = $_POST['email'];
-
-                $password = $_POST['Epassword'];
-
-
-                $sql = "INSERT INTO members (firstName, lastName, email, studentID, password) VALUES ('$fname', '$sname', '$email', '$stuno', '$password')";
-
-                $conn->exec($sql);
-                echo "New record created successfully";
-
+                    if ($results->rowcount() == 0) {
+                        echo "Login details incorrect<br />";
+                    } else {
+                        echo "Logged in as $stuno";
+                    }
                 } catch (PDOException $e) {
-                    echo "Connection failed: " . $e->getMessage();
+                echo "Query failed: " . $e->getMessage();
                 }
+            } catch (PDOException $e) {
+                echo "Connection failed: " . $e->getMessage();
+            }
 
-                $conn = null;
+            $conn = null;
             ?>
         </div>
         <br class="clearfix" />
@@ -78,5 +79,3 @@
 </div>
 </body>
 </html>
-
-
