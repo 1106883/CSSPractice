@@ -53,7 +53,7 @@
                 $password = $_POST['password'];
 
 
-                $sql = "SELECT * FROM members WHERE studentID LIKE '$stuno' AND password LIKE '$password'";
+                $sql = "SELECT * FROM members WHERE studentID = $stuno AND password LIKE '$password'";
 
                 try {
                     $results = $conn->query($query);
