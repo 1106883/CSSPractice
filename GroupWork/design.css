@@ -83,6 +83,10 @@ ul {
 	
 }
 
+#homepic {
+	border-radius: 5px;
+}
+
 #logo {
 	line-height: 149px;
 	top: 0;
