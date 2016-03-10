@@ -12,7 +12,7 @@
             <h1><strong><font size="20">GameShare RGU</font></strong></h1>
         </div>
         <div id="search">
-            <Form Name ="login">
+            <Form Name ="login" action="login.php" method="post">
                 <div id="logintext">
                     <font size="-2"><label for="username">Username :</label><input id="username" name="username" type="text" size="-2"/><label for="Password">Password :</label><input id="password" name="password" type="password" size="-2"/></font><input class="form-submit" type="submit" value="Login" />
                     <a id="register" href="Register.html">Not a member? Register.</a>
