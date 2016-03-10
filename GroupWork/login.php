@@ -56,7 +56,7 @@
                 $sql = "SELECT * FROM members WHERE studentID = $stuno";
 
                 try {
-                    $results = $conn->query($query);
+                    $results = $conn->query($sql);
 
                     if ($results->rowcount() == 0) {
                         echo "Login details incorrect<br />";
