@@ -53,7 +53,7 @@
                 $password = $_POST['password'];
 
 
-                $sql = "SELECT * FROM members WHERE studentID = $stuno";
+                $sql = "SELECT * FROM members WHERE studentID = $stuno AND password = '$password'";
 
                 try {
                     $results = $conn->query($sql);
