@@ -46,12 +46,14 @@
                 $conn = new PDO($dsn, $username, $password);
                 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+                $sql = "";
+
                 $stuno = $_POST['username'];
 
                 $password = $_POST['password'];
 
 
-                $sql = "SELECT * FROM members WHERE studentID = '$stuno' AND password = '$password'";
+                $sql = "SELECT * FROM members WHERE studentID LIKE '$stuno' AND password LIKE '$password'";
 
                 try {
                     $results = $conn->query($query);
