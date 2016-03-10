@@ -264,7 +264,7 @@ ul {
 	text-shadow: 0px 1px 1px #590200;
 	text-transform: lowercase;
 	border-radius: 5px;
-	z-index: 10;
+	z-index: 50;
 }
 
 #search input.form-text {
